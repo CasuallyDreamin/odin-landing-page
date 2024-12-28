@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #f9faf8;
+    align-items: center;
+}
+
+#hero, a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+#hero {
+    margin-top: 10px;
+}
+header > span {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#headerlogo {
+    font-size: 24px;
+}
+
+body {
+    padding: 0 10%;
+    background-color: #1F2938;
+    margin: 0;
+    margin-top: 5px;
+    font-family: 'Roboto';
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+    
